@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "029f3f044867fde3",
+        "id": "4ccde23812245732",
         "type": "tabs",
         "children": [
           {
-            "id": "1a642c8dfa74e265",
+            "id": "eef5920fee2f4c72",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -17,32 +17,6 @@
                 "mode": "source",
                 "source": false
               }
-            }
-          },
-          {
-            "id": "6306b290f4492409",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Version Control.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "afcdee80235c11b2",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "5fecd594e26eeed6",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
             }
           }
         ]
@@ -172,10 +146,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1a642c8dfa74e265",
+  "active": "eef5920fee2f4c72",
   "lastOpenFiles": [
-    "Version Control.md",
+    "shadowing_in_block_scope.js",
+    "temporal_dead_zone.js",
+    "Pasted image 20240807145541.jpg",
+    "Screenshot 2024-08-07 144603.png",
+    "notdefined!== undefined.js",
+    "Global_Exceution_context.js",
+    "Screenshot 2024-08-06 222332.png",
     "JavaScript.md",
+    "Version Control.md",
     "Welcome.md"
   ]
 }
