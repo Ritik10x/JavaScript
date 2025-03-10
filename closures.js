@@ -7,7 +7,7 @@ function a() // this is a parent
         console.log(num+tum); // in closure we can access the num from
         // parent function but vice-versa is not possible for example
     }//  if console.log was not in the funnction b and in funnction a
-    // we called it would have shown us error... this is closure
+    // we called it , would have shown us error... this is closure
     b();
 
 }a();
