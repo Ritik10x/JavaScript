@@ -1,10 +1,10 @@
 const radius = [1, 2, 3, 4];
 
-const area = function(radius) {
+function area (radius) { // i have removed variable
   return Math.PI * radius * radius;
 }
 
-const circumfrence = function(radius) {
+function circumfrence (radius) {
   return 2 * Math.PI * radius;
 }
  // map function take callback function as argument and return and array and also itterate array in the inde 
