@@ -7,7 +7,9 @@ const area = function(radius) {
 const circumfrence = function(radius) {
   return 2 * Math.PI * radius;
 }
- const calculateArea = radius.map(area)
- const calculatecircumfrence = radius.map(circumfrence)
- console.log(calculateArea);
- console.log(calculatecircumfrence);
+ // map function take callback function as argument and return and array and also itterate array in the inde 
+// it will iterate the array of radius and return in array.
+console.log(radius.map(area)); // by using map function i have  reduced the code
+console.log(radius.map(circumfrence));
+
+
