@@ -8,14 +8,5 @@ function triple(y)
 {
     return y*3;
 }
-
-const output = function(arr, logic){
-const exit = [] ;
- for (let i =0; i<arr.length;i++)
- {
-    exit.push(logic(arr[i]));
- }
- return exit;
-}
-console.log(output(arr,double));
-console.log(output(arr,triple));
+const output = arr.map(triple,double);// map work as loop and return new index in previous question we did
+console.log(output);
