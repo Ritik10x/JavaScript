@@ -1,10 +1,4 @@
-const users = 
-[
-  { firstName: "Alok", lastName: "Raj", age: 23 },
-  { firstName: "Ashish", lastName: "Kumar", age: 29 },
-  { firstName: "Ankit", lastName: "Roy", age: 29 },
-  { firstName: "Pranav", lastName: "Mukherjee", age: 50 },
-];                                                      // this code calculateing the how many users of same age
+;                                                      // this code calculateing the how many users of same age
                                                         //acc (accumulator) is an empty object {} at the start.
 const output = users.reduce(function(acc,curr)          //curr (current object) is each user one by one.
 
