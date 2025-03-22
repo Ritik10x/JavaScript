@@ -22,7 +22,7 @@ const user =fetch(GITHUB_API);// fetch is returnin a promise ".then" only used  
                               // in the fetch the promise is in pending state it will take some time
                               // to fetch then data and return
                               //but javascrit will not wait for anything it will directly 
-                              // display theuser that why we are seeing here the pending and inside pending
+                              // display the user that why we are seeing here the pending and inside pending
                               // there is fullfiled promise
 console.log(user);
 /**
